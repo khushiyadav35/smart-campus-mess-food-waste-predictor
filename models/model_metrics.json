@@ -1,0 +1,54 @@
+{
+    "best_model_name": "XGBoost Regressor",
+    "benchmark_metrics": {
+        "Fixed Baseline (85%)": {
+            "MAE": 301.21,
+            "RMSE": 372.23,
+            "MAPE_percent": 116.89,
+            "R2": -1.4759
+        },
+        "7-Day Moving Average": {
+            "MAE": 107.33,
+            "RMSE": 137.92,
+            "MAPE_percent": 27.61,
+            "R2": 0.6601
+        },
+        "Ridge Regression": {
+            "MAE": 67.33,
+            "RMSE": 82.48,
+            "MAPE_percent": 16.83,
+            "R2": 0.8784
+        },
+        "Random Forest": {
+            "MAE": 35.01,
+            "RMSE": 54.43,
+            "MAPE_percent": 9.39,
+            "R2": 0.9471
+        },
+        "XGBoost Regressor": {
+            "MAE": 29.37,
+            "RMSE": 41.54,
+            "MAPE_percent": 7.61,
+            "R2": 0.9692
+        }
+    },
+    "top_feature_importance": {
+        "prev_meal_attendance": 0.143,
+        "acad_Winter Vacation": 0.1328,
+        "is_weekend": 0.1219,
+        "meal_Lunch": 0.0846,
+        "rolling_7d_attendance": 0.0604,
+        "acad_Summer Vacation": 0.0486,
+        "meal_Dinner": 0.0458,
+        "sin_dow": 0.036,
+        "is_holiday": 0.0345,
+        "meal_Snacks": 0.0341,
+        "meal_Breakfast": 0.0339,
+        "acad_Regular Academic Session": 0.0316,
+        "is_long_weekend": 0.0305,
+        "menu_popularity": 0.0261,
+        "is_special_menu": 0.0248
+    },
+    "test_samples": 584,
+    "training_samples": 2336
+}
