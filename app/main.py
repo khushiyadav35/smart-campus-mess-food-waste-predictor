@@ -48,7 +48,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Custom CSS for polished, student-capstone UI
+# Custom CSS for UI styling
 st.markdown(
     """
     <style>
@@ -194,7 +194,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "📊 Campus Waste & Savings Analytics",
     "⚖️ Model Benchmarking & Explainability",
     "📋 Daily Mess Staff Audit Log",
-    "📖 Capstone Methodology & SDG Impact",
+    "📖 Methodology & SDG Impact",
 ])
 
 
@@ -567,7 +567,7 @@ with tab3:
 
         st.markdown(
             r"""
-            > **B.Tech Capstone Analytical Insight:**
+            > **Analytical Insight:**
             > Traditional Indian hostel messes operate under a fixed overcooking policy ($\sim 85\%$ capacity = 850 meals), leading to an alarming **MAE of 301 students** per meal and $R^2 = -1.47$.
             > The tuned **XGBoost Regressor** captures nonlinear interactions between exam stress, weekend attrition, and menu item cravings, bringing the prediction error down to **MAE: 29.37 students** with an impressive **$R^2 = 0.9692$**.
             """
@@ -663,9 +663,8 @@ with tab5:
             - **💰 Budget Optimization:** Frees up capital to improve food nutrition and ingredient quality for students.
             - **🛡️ High Reliability:** The two-stage batch cooking system guarantees **zero food shortage** for dining students.
 
-            #### 👩‍💻 Student Project Credentials
+            #### 👩‍💻 Developer & Project Info
             - **Developer:** Khushi Yadav
-            - **Affiliation:** B.Tech Computer Science & Engineering
             - **GitHub:** [khushiyadav35](https://github.com/khushiyadav35)
             """
         )

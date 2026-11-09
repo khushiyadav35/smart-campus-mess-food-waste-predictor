@@ -9,8 +9,7 @@
 [![CI Build](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/khushiyadav35/smart-campus-mess-food-waste-predictor/actions)
 [![UN SDG](https://img.shields.io/badge/UN%20SDG-12.3%20Food%20Waste-0A97D9)](https://sdgs.un.org/goals/goal12)
 
-> **B.Tech Final Year / Capstone Engineering Project**  
-> **Author:** [Khushi Yadav](https://github.com/khushiyadav35) (B.Tech Computer Science & Engineering)  
+> **Author:** [Khushi Yadav](https://github.com/khushiyadav35)  
 > **Repository:** [https://github.com/khushiyadav35/smart-campus-mess-food-waste-predictor](https://github.com/khushiyadav35/smart-campus-mess-food-waste-predictor)  
 > **Live Web Application:** [https://smart-campus-mess-predictor.streamlit.app](https://smart-campus-mess-predictor.streamlit.app) *(or deployable directly via Streamlit Cloud & Render)*
 
@@ -170,7 +169,7 @@ The web application provides five operational modules designed for hostel warden
    - Human-in-the-loop audit interface: allows catering staff to log actual students served and weighed leftover buckets at the end of each shift.
    - Tracks model error drift and maintains historical audit logs in `data/mess_daily_audit_log.csv`.
 
-5. 📖 **Capstone Methodology & UN SDG Impact:**
+5. 📖 **Methodology & UN SDG Impact:**
    - Detailed academic problem statement, mathematical derivations, and UN SDG 12.3 alignment summary.
 
 ---
@@ -325,7 +324,6 @@ This repository includes a `render.yaml` blueprint and `Procfile`. Simply create
 ## 👩‍💻 Author & Contact
 
 **Khushi Yadav**  
-B.Tech in Computer Science & Engineering  
 GitHub: [@khushiyadav35](https://github.com/khushiyadav35)  
 Email: [ky19tech@gmail.com](mailto:ky19tech@gmail.com)  
 
